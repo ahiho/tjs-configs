@@ -1,0 +1,23 @@
+name: ✨
+
+on:
+  push:
+    branches:
+      - '**'
+      - '!main'
+
+jobs:
+  test:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - uses: actions/setup-node@v2.1.5
+        with:
+          node-version: '16'
+          registry-url: https://npm.pkg.github.com/
+          scope: '@ahiho'
+      - name: Test
+        run: yarn ci:install && yarn ci:test
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.PAT}}

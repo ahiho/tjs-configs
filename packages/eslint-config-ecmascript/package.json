@@ -1,0 +1,29 @@
+{
+  "name": "@ahiho/eslint-config-ecmascript",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  },
+  "main": "index.js",
+  "files": [
+    "es5.js",
+    "es6.js",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "echo test @ahiho/eslint-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiho/tjs-configs.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "dependencies": {
+    "eslint": "^8.11.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@ahiho/tjs-configs",
+  "license": "UNLICENSED",
+  "private": "true",
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  },
+  "scripts": {
+    "format:check": "prettier-config check",
+    "format:write": "prettier-config write",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "ci:test": "yarn format:check && yarn lint && yarn test",
+    "ci:install": "yarn install --frozen-lockfile",
+    "ci:build": "lerna run build",
+    "ci:release": "lerna publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiho/tjs-configs.git"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ahiho/eslint-config"
+    ]
+  },
+  "prettier": "@ahiho/prettier-config"
+}

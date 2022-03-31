@@ -1,0 +1,9 @@
+.idea/
+.temp/
+
+node_modules/
+
+.npmrc
+.DS_Store
+
+*.log

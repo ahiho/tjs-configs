@@ -1,0 +1,24 @@
+{
+  "name": "@ahiho/tsconfig",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "echo lint @ahiho/tsconfig",
+    "test": "echo test @ahiho/tsconfig"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiho/tjs-configs.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  }
+}

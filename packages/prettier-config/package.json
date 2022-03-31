@@ -1,0 +1,29 @@
+{
+  "name": "@ahiho/prettier-config",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=14.0.0 <17.0.0"
+  },
+  "bin": "./cli.js",
+  "main": "index.js",
+  "files": [
+    "cli.js",
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "echo test @ahiho/prettier-config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiho/tjs-configs.git"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "dependencies": {
+    "prettier": "^2.6.1"
+  }
+}
