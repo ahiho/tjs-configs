@@ -14,7 +14,7 @@ function logError(message) {
   process.exit(1)
 }
 
-if (!args || !args.length || args.length !== 1) {
+if (!args || !args.length) {
   logError('Must be 1 argument')
 }
 
@@ -23,7 +23,9 @@ if (!['write', 'check'].includes(command)) {
   logError('The argument must be be "write" or "check"')
 }
 
-exec(`prettier --${command} "**/*.{${extensions}}"`, (err, stdout, stderr) => {
+const files = args[1] || `"**/*.{${extensions}}"`
+
+exec(`prettier --${command} ${files}`, (err, stdout, stderr) => {
   if (stdout) {
     process.stdout.write(stdout)
   }
