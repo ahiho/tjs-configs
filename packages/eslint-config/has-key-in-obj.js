@@ -1,14 +1,14 @@
 const hasKeyInObj = (key, obj = {}) => {
-  const [k, ...restOfK] = key.split('.')
+  const [k, ...restOfK] = key.split('.');
   if (restOfK.length === 0) {
-    return Object.keys(obj).some((ok) => ok === k)
+    return Object.keys(obj).some((ok) => ok === k);
   }
-  const nextObj = obj[k]
+  const nextObj = obj[k];
   if (!(nextObj instanceof Object)) {
-    return false
+    return false;
   }
 
-  return hasKeyInObj(restOfK.join('.'), nextObj)
-}
+  return hasKeyInObj(restOfK.join('.'), nextObj);
+};
 
-module.exports = { hasKeyInObj }
+module.exports = { hasKeyInObj };

@@ -184,4 +184,4 @@ module.exports = {
     'no-unused-vars': [2, { vars: 'local', args: 'after-used' }],
     'no-use-before-define': [2, { functions: false }],
   },
-}
+};
