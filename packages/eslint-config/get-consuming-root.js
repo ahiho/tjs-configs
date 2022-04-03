@@ -1,5 +1,5 @@
-const path = require('path')
+const path = require('path');
 
-const getConsumingRoot = () => path.resolve(process.cwd())
+const getConsumingRoot = () => path.resolve(process.cwd());
 
-module.exports = { getConsumingRoot }
+module.exports = { getConsumingRoot };

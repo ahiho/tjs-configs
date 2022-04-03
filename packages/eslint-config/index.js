@@ -1,15 +1,15 @@
-const { hasConfig } = require('./has-config')
+const { hasConfig } = require('./has-config');
 
 const hasReact = hasConfig([
   { type: 'dependency', dependency: 'react' },
   { type: 'dependency', dependency: 'react', dependencyType: 'peer' },
-])
+]);
 
 const hasTypescript = hasConfig([
   { type: 'dependency', dependency: 'typescript' },
   { type: 'dependency', dependency: 'typescript', dependencyType: 'dev' },
   { type: 'file', pattern: 'tsconfig.json' },
-])
+]);
 
 module.exports = {
   extends: [
@@ -41,4 +41,4 @@ module.exports = {
     'jest-formatting/padding-around-all': 'error',
     curly: ['error', 'all'],
   },
-}
+};
