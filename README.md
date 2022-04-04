@@ -28,7 +28,7 @@ Ahiho's
 ## Usage
 
 ```shell
-yarn add --dev @ahiho/eslint-config @ahiho/prettier-config @ahiho/tsconfig
+yarn add --dev @ahiho/eslint-config @ahiho/prettier-config @ahiho/tsconfig @ahiho/commitlint-config
 ```
 
 ### Prettier
@@ -42,6 +42,10 @@ yarn add --dev @ahiho/eslint-config @ahiho/prettier-config @ahiho/tsconfig
 ### TSConfig
 
 [README](./packages/tsconfig/README.md)
+
+### Commitlint
+
+[README](./packages/commitlint-config/README.md)
 
 ### Jest
 
