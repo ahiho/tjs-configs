@@ -15,5 +15,9 @@ yarn add --dev @ahiho/commitlint-config
 The commitlint config should be applied to a package's `package.json` in a Lerna project.
 
 ```text
-"commitlint": "@ahiho/commitlint-config",
+"commitlint": {
+  "extends": [
+    "@ahiho/commitlint-config"
+  ]
+},
 ```

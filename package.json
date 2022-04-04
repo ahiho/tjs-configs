@@ -31,5 +31,7 @@
     ]
   },
   "prettier": "@ahiho/prettier-config",
-  "commitlint": "@ahiho/commitlint-config"
+  "commitlint": {
+    "extends": "@ahiho/commitlint-config"
+  }
 }
