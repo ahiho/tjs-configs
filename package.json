@@ -30,5 +30,6 @@
       "@ahiho/eslint-config"
     ]
   },
-  "prettier": "@ahiho/prettier-config"
+  "prettier": "@ahiho/prettier-config",
+  "commitlint": "@ahiho/commitlint-config"
 }
