@@ -1,11 +1,19 @@
-# `commitlint-config`
+# @ahiho/commitlint-config
 
-> TODO: description
+Ahiho's full commit lint config.
+
+Read the [Commitlint docs](https://github.com/conventional-changelog/commitlint) for more information.
+
+## Installation
+
+```shell
+yarn add --dev @ahiho/commitlint-config
+```
 
 ## Usage
 
-```
-const commitlintConfig = require('commitlint-config');
+The commitlint config should be applied to a package's `package.json` in a Lerna project.
 
-// TODO: DEMONSTRATE API
+```text
+"commitlint": "@ahiho/commitlint-config",
 ```
