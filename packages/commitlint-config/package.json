@@ -1,0 +1,30 @@
+{
+  "name": "@ahiho/commitlint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ahiho's commit convention",
+  "keywords": [
+    "commitlint",
+    "ahiho"
+  ],
+  "author": "Thanh Vu <thanh@ahiho.com>",
+  "homepage": "https://github.com/ahiho/tjs-configs/packages/commitlint-config",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "bin": "./cli.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahiho/tjs-configs.git"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "test": "echo test @ahiho/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/ahiho/tjs-configs/issues"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1"
+  }
+}
