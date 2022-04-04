@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/ahiho/tjs-configs.git"
   },
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "lint": "eslint . --ext .js",
     "test": "echo test @ahiho/prettier-config"
