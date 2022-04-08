@@ -10,6 +10,7 @@
     "target": "ESNext",
 
     "strict": true,
+    "strictPropertyInitialization": false,
     "alwaysStrict": true,
     "noImplicitThis": false,
     "noImplicitAny": false,
