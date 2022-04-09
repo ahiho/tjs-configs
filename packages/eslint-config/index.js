@@ -29,7 +29,6 @@ module.exports = {
   },
   plugins: ['functional', 'import', 'jest-formatting', 'simple-import-sort'],
   rules: {
-    'functional/prefer-readonly-type': 'error',
     'jest/expect-expect': [
       'error',
       {
