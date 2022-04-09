@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.2.2...@ahiho/eslint-config@1.3.0) (2022-04-09)
+
+
+### Features
+
+* remove prefer readonly type ([#18](https://github.com/ahiho/tjs-configs/issues/18)) ([1c0de87](https://github.com/ahiho/tjs-configs/commit/1c0de876d1a17ff2c9a2c4424ff6e22bbddb3f48))
+
+
+
+
+
 ## [1.2.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.2.1...@ahiho/eslint-config@1.2.2) (2022-04-03)
 
 
