@@ -13,6 +13,7 @@
     "alwaysStrict": true,
     "noImplicitThis": false,
     "noImplicitAny": false,
+    "strictPropertyInitialization": false,
 
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
