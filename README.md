@@ -27,6 +27,19 @@ Ahiho's
 
 ## Usage
 
+Before start, You need a token with Ahiho's private packages access.
+
+You can create one [here](https://github.com/settings/tokens/new?scopes=read:packages).
+
+In your project root folder, create a file `.npmrc` with content:
+
+```
+@ahiho:registry=https://npm.pkg.github.com/
+//npm.pkg.github.com/:_authToken=YOUR_GITHUB_PERSONAL_TOKEN
+```
+
+Now you have access to Ahiho's private packages.
+
 ```shell
 yarn add --dev @ahiho/eslint-config @ahiho/prettier-config @ahiho/tsconfig @ahiho/commitlint-config
 ```
