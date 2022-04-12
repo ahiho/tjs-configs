@@ -44,7 +44,7 @@ module.exports = {
     'no-octal': 'error',
     'no-octal-escape': 'error',
     'no-param-reassign': 'error',
-    'no-process-env': 'error',
+    'no-process-env': 'off',
     'no-proto': 'error',
     'no-redeclare': 'error',
     'no-return-assign': 'error',
