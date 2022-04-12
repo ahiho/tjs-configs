@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.1...@ahiho/eslint-config-ecmascript@1.2.2) (2022-04-12)
+
+
+### Bug Fixes
+
+* **eslint:** allow process env ([#22](https://github.com/ahiho/tjs-configs/issues/22)) ([85c2c39](https://github.com/ahiho/tjs-configs/commit/85c2c39397ed75ce8d7dc098f4486123a9caa836))
+
+
+
+
+
 ## [1.2.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.0...@ahiho/eslint-config-ecmascript@1.2.1) (2022-04-03)
 
 
