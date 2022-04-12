@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.3.2...@ahiho/eslint-config@1.3.3) (2022-04-12)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-functional from 4.2.0 to 4.2.1 ([#15](https://github.com/ahiho/tjs-configs/issues/15)) ([829d5bb](https://github.com/ahiho/tjs-configs/commit/829d5bba40c60a0f7a1e2051c9506e14bf1577af))
+
+
+
+
+
 ## [1.3.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.3.1...@ahiho/eslint-config@1.3.2) (2022-04-12)
 
 
