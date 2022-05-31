@@ -7,6 +7,15 @@ module.exports = {
   },
   extends: ['plugin:jsx-a11y/recommended'],
   rules: {
+    'no-process-env': 'off',
+    'functional/prefer-readonly-type': [
+      'error',
+      {
+        ignoreInterface: true,
+        ignoreCollections: true,
+        allowMutableReturnType: true,
+      },
+    ],
     'react/display-name': 'off',
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-spacing': 'off',
