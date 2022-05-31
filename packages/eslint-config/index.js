@@ -28,16 +28,21 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['functional', 'import', 'jest-formatting', 'simple-import-sort'],
-  rules: {
-    'jest/expect-expect': [
-      'error',
-      {
-        assertFunctionNames: ['expect', 'supertest.**.expect', 'request.**.expect'],
-      },
-    ],
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
-    'jest-formatting/padding-around-all': 'error',
-    curly: ['error', 'all'],
-  },
+  rules: Object.assign(
+    {
+      'jest/expect-expect': [
+        'error',
+        {
+          assertFunctionNames: ['expect', 'supertest.**.expect', 'request.**.expect'],
+        },
+      ],
+      'simple-import-sort/imports': 'error',
+      'simple-import-sort/exports': 'error',
+      'jest-formatting/padding-around-all': 'error',
+      'no-empty': 'error',
+      'no-empty-function': 'error',
+      curly: ['error', 'all'],
+    },
+    hasReact ? { '@typescript-eslint/explicit-function-return-type': 'off' } : {},
+  ),
 };
