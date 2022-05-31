@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.2.2...@ahiho/eslint-config-react@1.3.0) (2022-05-31)
+
+
+### Features
+
+* add no empty block rule ([#51](https://github.com/ahiho/tjs-configs/issues/51)) ([60387cf](https://github.com/ahiho/tjs-configs/commit/60387cfa1f544a646b87099e2c4e7d701ee14564))
+
+
+
+
+
 ## [1.2.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.2.1...@ahiho/eslint-config-react@1.2.2) (2022-04-03)
 
 
