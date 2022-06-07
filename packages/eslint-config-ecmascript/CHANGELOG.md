@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.2...@ahiho/eslint-config-ecmascript@1.2.3) (2022-06-07)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint from 8.12.0 to 8.17.0 ([#53](https://github.com/ahiho/tjs-configs/issues/53)) ([a0ffed1](https://github.com/ahiho/tjs-configs/commit/a0ffed18b2f16cc6fad873c9c6be223a2794c9ee))
+
+
+
+
+
 ## [1.2.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.1...@ahiho/eslint-config-ecmascript@1.2.2) (2022-04-12)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config-typescript",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <17.0.0"

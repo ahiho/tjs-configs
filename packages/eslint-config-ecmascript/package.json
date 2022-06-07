@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config-ecmascript",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <17.0.0"
