@@ -36,6 +36,7 @@ module.exports = {
           assertFunctionNames: ['expect', 'supertest.**.expect', 'request.**.expect'],
         },
       ],
+      'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false }],
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
       'jest-formatting/padding-around-all': 'error',
