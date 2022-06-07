@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.2.3...@ahiho/eslint-config-typescript@1.2.4) (2022-06-07)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/eslint-plugin from 5.17.0 to 5.27.1 ([#55](https://github.com/ahiho/tjs-configs/issues/55)) ([e9818de](https://github.com/ahiho/tjs-configs/commit/e9818de00991f439e8c44bd321fc37cd3d632a48))
+
+
+
+
+
 ## [1.2.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.2.2...@ahiho/eslint-config-typescript@1.2.3) (2022-04-12)
 
 
