@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.0...@ahiho/eslint-config@1.5.1) (2022-06-07)
+
+
+### Bug Fixes
+
+* **deps:** bump glob from 7.2.0 to 8.0.3 ([#38](https://github.com/ahiho/tjs-configs/issues/38)) ([6156603](https://github.com/ahiho/tjs-configs/commit/61566039fdb75c4ba2df67c00c36ad92b521f1df))
+
+
+
+
+
 # [1.5.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.4.0...@ahiho/eslint-config@1.5.0) (2022-06-07)
 
 
