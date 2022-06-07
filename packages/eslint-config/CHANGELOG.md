@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.4.0...@ahiho/eslint-config@1.5.0) (2022-06-07)
+
+
+### Features
+
+* add unused variable rule ([#54](https://github.com/ahiho/tjs-configs/issues/54)) ([57b503b](https://github.com/ahiho/tjs-configs/commit/57b503b2135222e256134661092b06d7b6a2a98c))
+
+
+
+
+
 # [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.3.3...@ahiho/eslint-config@1.4.0) (2022-05-31)
 
 
