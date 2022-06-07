@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.6](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.5...@ahiho/eslint-config@1.5.6) (2022-06-07)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump jest from 27.5.1 to 28.1.1 ([#63](https://github.com/ahiho/tjs-configs/issues/63)) ([bb3a8ef](https://github.com/ahiho/tjs-configs/commit/bb3a8efda724c05b0a19257ffa81c5b63de09d89))
+
+
+
+
+
 ## [1.5.5](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.4...@ahiho/eslint-config@1.5.5) (2022-06-07)
 
 **Note:** Version bump only for package @ahiho/eslint-config

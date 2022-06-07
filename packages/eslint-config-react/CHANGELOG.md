@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.2...@ahiho/eslint-config-react@1.3.3) (2022-06-07)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint-plugin-react-hooks from 4.4.0 to 4.5.0 ([#64](https://github.com/ahiho/tjs-configs/issues/64)) ([5557953](https://github.com/ahiho/tjs-configs/commit/55579539a90f57c7f9aeee03d634f98636f7f60f))
+
+
+
+
+
 ## [1.3.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.1...@ahiho/eslint-config-react@1.3.2) (2022-06-07)
 
 
