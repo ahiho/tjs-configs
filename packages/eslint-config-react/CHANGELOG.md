@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.3...@ahiho/eslint-config-react@1.3.4) (2022-06-08)
+
+**Note:** Version bump only for package @ahiho/eslint-config-react
+
+
+
+
+
 ## [1.3.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.2...@ahiho/eslint-config-react@1.3.3) (2022-06-07)
 
 

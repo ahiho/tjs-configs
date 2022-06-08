@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.7](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.6...@ahiho/eslint-config@1.5.7) (2022-06-08)
+
+**Note:** Version bump only for package @ahiho/eslint-config
+
+
+
+
+
 ## [1.5.6](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.5...@ahiho/eslint-config@1.5.6) (2022-06-07)
 
 
