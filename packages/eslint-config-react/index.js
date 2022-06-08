@@ -29,7 +29,7 @@ module.exports = {
     'react/jsx-uses-vars': 'error',
     'react/jsx-wrap-multilines': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/no-danger': 'off',
     'react/no-did-mount-set-state': 'off',
     'react/no-did-update-set-state': 'error',
