@@ -12,7 +12,6 @@ module.exports = {
     '@typescript-eslint/indent': ['error', 2, { SwitchCase: 1 }],
     'no-array-constructor': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
-    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
