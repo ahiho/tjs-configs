@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <17.0.0"
@@ -27,7 +27,7 @@
   "dependencies": {
     "@ahiho/eslint-config-ecmascript": "^1.2.3",
     "@ahiho/eslint-config-react": "^1.3.4",
-    "@ahiho/eslint-config-typescript": "^1.2.7",
+    "@ahiho/eslint-config-typescript": "^1.2.8",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-functional": "^4.2.1",

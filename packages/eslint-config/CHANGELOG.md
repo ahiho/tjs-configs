@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.8](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.7...@ahiho/eslint-config@1.5.8) (2022-06-09)
+
+
+### Bug Fixes
+
+* update no ununsed var rule ([#67](https://github.com/ahiho/tjs-configs/issues/67)) ([d71c93d](https://github.com/ahiho/tjs-configs/commit/d71c93dbfe01c348773bab7d9bcf1e713d7901e7))
+
+
+
+
+
 ## [1.5.7](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.6...@ahiho/eslint-config@1.5.7) (2022-06-08)
 
 **Note:** Version bump only for package @ahiho/eslint-config
