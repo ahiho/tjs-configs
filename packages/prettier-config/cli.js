@@ -25,7 +25,7 @@ if (!['write', 'check'].includes(command)) {
 
 const files = args[1] || `"**/*.{${extensions}}"`;
 
-exec(`prettier --${command} ${files}`, (err, stdout, stderr) => {
+exec(`prettier --${command} ${files} --no-error-on-unmatched-pattern`, (err, stdout, stderr) => {
   if (stdout) {
     process.stdout.write(stdout);
   }
