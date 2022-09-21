@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.3.1...@ahiho/prettier-config@1.4.0) (2022-09-21)
+
+
+### Features
+
+* disable unmatched pattern error for prettier cli ([#78](https://github.com/ahiho/tjs-configs/issues/78)) ([5d34a99](https://github.com/ahiho/tjs-configs/commit/5d34a99a7e1e78be2584f02fdc3439eaf0c1e2e1))
+
+
+
+
+
 ## [1.3.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.3.0...@ahiho/prettier-config@1.3.1) (2022-04-04)
 
 
