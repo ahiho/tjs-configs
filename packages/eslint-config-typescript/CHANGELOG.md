@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.9](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.2.8...@ahiho/eslint-config-typescript@1.2.9) (2022-10-02)
+
+
+### Bug Fixes
+
+* **deps:** bump @typescript-eslint/parser from 5.27.1 to 5.38.1 ([#121](https://github.com/ahiho/tjs-configs/issues/121)) ([1b9aa1a](https://github.com/ahiho/tjs-configs/commit/1b9aa1afa054f5f8a4d36b6bf5919a3d09bcb2c5))
+
+
+
+
+
 ## [1.2.8](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.2.7...@ahiho/eslint-config-typescript@1.2.8) (2022-06-09)
 
 
