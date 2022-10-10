@@ -8,7 +8,14 @@ module.exports = {
   extends: ['plugin:jsx-a11y/recommended'],
   rules: {
     'no-process-env': 'off',
-    'functional/prefer-readonly-type': ['off'],
+    'functional/prefer-readonly-type': [
+      'error',
+      {
+        ignoreInterface: true,
+        ignoreCollections: true,
+        allowMutableReturnType: true,
+      },
+    ],
     'react/display-name': 'off',
     'react/jsx-boolean-value': 'error',
     'react/jsx-curly-spacing': 'off',
@@ -32,7 +39,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-extension': 'off',
     'react/self-closing-comp': 'error',
-    'react/jsx-key': ['error', { "checkFragmentShorthand": true }],
+    'react/jsx-key': ['error', { checkFragmentShorthand: true }],
     'react/sort-comp': [
       2,
       {
