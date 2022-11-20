@@ -28,7 +28,7 @@
     "@ahiho/eslint-config-ecmascript": "^1.2.3",
     "@ahiho/eslint-config-react": "^1.3.5",
     "@ahiho/eslint-config-typescript": "^1.2.9",
-    "eslint": "^8.17.0",
+    "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-functional": "^4.2.1",
     "eslint-plugin-import": "^2.26.0",
