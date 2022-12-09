@@ -39,6 +39,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'error',
     'react/require-extension': 'off',
     'react/self-closing-comp': 'error',
+    'react/jsx-key': ['error', { checkFragmentShorthand: true }],
     'react/sort-comp': [
       2,
       {
