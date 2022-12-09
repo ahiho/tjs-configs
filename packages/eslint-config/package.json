@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config",
-  "version": "1.5.10",
+  "version": "1.5.11",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <17.0.0"
@@ -25,9 +25,9 @@
     "access": "restricted"
   },
   "dependencies": {
-    "@ahiho/eslint-config-ecmascript": "^1.2.3",
-    "@ahiho/eslint-config-react": "^1.4.0",
-    "@ahiho/eslint-config-typescript": "^1.2.9",
+    "@ahiho/eslint-config-ecmascript": "^1.2.4",
+    "@ahiho/eslint-config-react": "^1.4.1",
+    "@ahiho/eslint-config-typescript": "^1.2.10",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-functional": "^4.2.1",

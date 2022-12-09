@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.1.6...@ahiho/commitlint-config@1.1.7) (2022-12-09)
+
+
+### Bug Fixes
+
+* **deps:** bump @commitlint/cli from 17.0.2 to 17.3.0 ([#146](https://github.com/ahiho/tjs-configs/issues/146)) ([8c535d3](https://github.com/ahiho/tjs-configs/commit/8c535d3fd6b43d8b2eed0c2d66cd817f3a2c4ed5))
+
+
+
+
+
 ## [1.1.6](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.1.5...@ahiho/commitlint-config@1.1.6) (2022-06-07)
 
 

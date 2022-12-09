@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.4.0...@ahiho/eslint-config-react@1.4.1) (2022-12-09)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint from 8.17.0 to 8.29.0 ([#149](https://github.com/ahiho/tjs-configs/issues/149)) ([353579e](https://github.com/ahiho/tjs-configs/commit/353579ecf3723f4b6c2864f966c83316838c217e))
+
+
+
+
+
 # [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.5...@ahiho/eslint-config-react@1.4.0) (2022-12-09)
 
 

@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.11](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.10...@ahiho/eslint-config@1.5.11) (2022-12-09)
+
+
+### Bug Fixes
+
+* **deps:** bump eslint from 8.17.0 to 8.29.0 ([#149](https://github.com/ahiho/tjs-configs/issues/149)) ([353579e](https://github.com/ahiho/tjs-configs/commit/353579ecf3723f4b6c2864f966c83316838c217e))
+* **deps:** bump eslint-plugin-simple-import-sort from 7.0.0 to 8.0.0 ([#125](https://github.com/ahiho/tjs-configs/issues/125)) ([3f73a06](https://github.com/ahiho/tjs-configs/commit/3f73a064c5e2b63a6688c17b483f243dae74572e))
+
+
+
+
+
 ## [1.5.10](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.9...@ahiho/eslint-config@1.5.10) (2022-12-09)
 
 **Note:** Version bump only for package @ahiho/eslint-config
