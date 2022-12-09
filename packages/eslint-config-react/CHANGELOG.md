@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.5...@ahiho/eslint-config-react@1.4.0) (2022-12-09)
+
+
+### Features
+
+* add jsx key rule ([#131](https://github.com/ahiho/tjs-configs/issues/131)) ([444d9ca](https://github.com/ahiho/tjs-configs/commit/444d9cafc7e12a9c11ddcad8832dfee39d23b5f5))
+
+
+
+
+
 ## [1.3.5](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.3.4...@ahiho/eslint-config-react@1.3.5) (2022-10-02)
 
 
