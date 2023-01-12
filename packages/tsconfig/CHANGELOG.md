@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.2.0...@ahiho/tsconfig@1.2.1) (2023-01-12)
+
+
+### Bug Fixes
+
+* correct node engine version ([094072e](https://github.com/ahiho/tjs-configs/commit/094072e351e28db9b469d52b113cdf55db973ea4))
+
+
+
+
+
 # [1.2.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.1.1...@ahiho/tsconfig@1.2.0) (2023-01-12)
 
 
