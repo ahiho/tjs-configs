@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.4.1...@ahiho/prettier-config@1.5.0) (2023-01-12)
+
+
+### Bug Fixes
+
+* **deps:** bump prettier from 2.7.1 to 2.8.2 ([#162](https://github.com/ahiho/tjs-configs/issues/162)) ([0a95cc0](https://github.com/ahiho/tjs-configs/commit/0a95cc0d96bf5194b12e4432d08fdc1749e3cad8))
+
+
+### Features
+
+* update latest nodejs version ([efcdb0a](https://github.com/ahiho/tjs-configs/commit/efcdb0adcca89553392ea5090dcda786e9d0c87b))
+
+
+
+
+
 ## [1.4.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.4.0...@ahiho/prettier-config@1.4.1) (2022-10-02)
 
 

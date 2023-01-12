@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.4...@ahiho/eslint-config-ecmascript@1.3.0) (2023-01-12)
+
+
+### Features
+
+* update latest nodejs version ([efcdb0a](https://github.com/ahiho/tjs-configs/commit/efcdb0adcca89553392ea5090dcda786e9d0c87b))
+
+
+
+
+
 ## [1.2.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.2.3...@ahiho/eslint-config-ecmascript@1.2.4) (2022-12-09)
 
 

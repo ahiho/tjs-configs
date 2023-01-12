@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.11...@ahiho/eslint-config@1.6.0) (2023-01-12)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump jest from 28.1.1 to 29.3.1 ([#156](https://github.com/ahiho/tjs-configs/issues/156)) ([03aa64f](https://github.com/ahiho/tjs-configs/commit/03aa64f596fda69902a2fdf6f5f0cb05178d381b))
+* **deps:** bump eslint-plugin-functional from 4.2.1 to 4.4.1 ([#152](https://github.com/ahiho/tjs-configs/issues/152)) ([9d22ae5](https://github.com/ahiho/tjs-configs/commit/9d22ae59ce9dc76efdb3412815b7ce4f16e88882))
+
+
+### Features
+
+* update latest nodejs version ([efcdb0a](https://github.com/ahiho/tjs-configs/commit/efcdb0adcca89553392ea5090dcda786e9d0c87b))
+
+
+
+
+
 ## [1.5.11](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.5.10...@ahiho/eslint-config@1.5.11) (2022-12-09)
 
 
