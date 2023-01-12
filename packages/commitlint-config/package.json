@@ -10,7 +10,7 @@
   "homepage": "https://github.com/ahiho/tjs-configs/packages/commitlint-config",
   "license": "UNLICENSED",
   "engines": {
-    "node": ">=14.0.0 <18.13.0"
+    "node": ">=14.0.0 <=18"
   },
   "main": "index.js",
   "files": [
