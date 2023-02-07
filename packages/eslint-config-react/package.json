@@ -1,7 +1,7 @@
 {
   "name": "@ahiho/eslint-config-react",
   "version": "1.5.1",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "engines": {
     "node": ">=14.0.0 <=18"
   },
@@ -19,7 +19,7 @@
     "url": "git+https://github.com/ahiho/tjs-configs.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "dependencies": {
     "eslint": "^8.29.0",
