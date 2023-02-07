@@ -1,4 +1,4 @@
-name: 🚀
+name: 🚀 NPM Release
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          yarn ci:release
+          yarn ci:release --no-private
         env:
           GH_TOKEN: ${{ secrets.PAT }}
           NODE_AUTH_TOKEN: ${{ github.token }}
