@@ -1,7 +1,7 @@
 {
   "name": "@ahiho/tsconfig",
   "version": "1.2.1",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <=18"
   },
@@ -19,6 +19,6 @@
     "url": "git+https://github.com/ahiho/tjs-configs.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   }
 }

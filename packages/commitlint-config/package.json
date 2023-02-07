@@ -6,8 +6,9 @@
     "commitlint",
     "ahiho"
   ],
+  "author": "Thanh Vu <thanh@ahiho.com>",
   "homepage": "https://github.com/ahiho/tjs-configs/packages/commitlint-config",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "engines": {
     "node": ">=14.0.0 <=18"
   },
@@ -21,7 +22,7 @@
     "url": "git+https://github.com/ahiho/tjs-configs.git"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted"
   },
   "scripts": {
     "lint": "eslint . --ext .js",
