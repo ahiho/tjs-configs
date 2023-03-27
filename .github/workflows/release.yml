@@ -20,7 +20,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@ahiho'
       - name: Build
-        run: yarn ci:install && yarn ci:build
+        run: yarn ci:install
         env:
           NODE_AUTH_TOKEN: ${{secrets.PAT}}
       - name: Release
