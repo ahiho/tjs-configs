@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.5.1...@ahiho/eslint-config-react@1.6.0) (2023-03-27)
+
+
+### Features
+
+* update eslint-config-react license ([7a47319](https://github.com/ahiho/tjs-configs/commit/7a47319092d26476bb019bbe6053cf8edd3bd999))
+
+
+### Reverts
+
+* Revert "chore: made packages be public" ([ebdf37f](https://github.com/ahiho/tjs-configs/commit/ebdf37f920a34c0eff0a979ea7ad9b4598d9cdc7))
+
+
+
+
+
 ## [1.5.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.5.0...@ahiho/eslint-config-react@1.5.1) (2023-01-12)
 
 
