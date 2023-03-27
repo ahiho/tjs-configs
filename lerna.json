@@ -9,9 +9,6 @@
       "createRelease": "github",
       "conventionalCommits": true,
       "message": "chore(release): [skip ci] publish"
-    },
-    "publish": {
-      "registry": "https://npm.pkg.github.com"
     }
   }
 }
