@@ -11,7 +11,6 @@ yarn add --dev @ahiho/commitlint-config
 ```
 
 ## Usage
-
 The commitlint config should be applied to a package's `package.json` in a Lerna project.
 
 ```text
