@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.3.1...@ahiho/eslint-config-ecmascript@1.4.0) (2023-03-27)
+
+
+### Features
+
+* update eslint-config-ecmascript license ([074de63](https://github.com/ahiho/tjs-configs/commit/074de637fe7b60939f1b07ca7f56e2b8d47f055e))
+
+
+### Reverts
+
+* Revert "chore: made packages be public" ([ebdf37f](https://github.com/ahiho/tjs-configs/commit/ebdf37f920a34c0eff0a979ea7ad9b4598d9cdc7))
+
+
+
+
+
 ## [1.3.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.3.0...@ahiho/eslint-config-ecmascript@1.3.1) (2023-01-12)
 
 
