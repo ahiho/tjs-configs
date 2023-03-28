@@ -4,11 +4,12 @@
   "useWorkspaces": true,
   "packages": ["packages/*"],
   "command": {
-    "version": {
+    "publish": {
       "yes": true,
       "createRelease": "github",
       "conventionalCommits": true,
-      "message": "chore(release): [skip ci] publish"
+      "message": "chore(release): [skip ci] publish",
+      "registry": "https://npm.pkg.github.com"
     }
   }
 }
