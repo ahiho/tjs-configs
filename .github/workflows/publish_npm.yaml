@@ -24,5 +24,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.PAT}}
       - name: Publish
         run: |
-          echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} > .npmrc
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
           npx lerna publish from-git --conventional-commits false --yes --registry https://registry.npmjs.org
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

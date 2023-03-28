@@ -11,6 +11,7 @@ yarn add --dev @ahiho/prettier-config
 ```
 
 ## Usage
+
 After installing, update `package.json` file to add the following properties.
 
 ```text
