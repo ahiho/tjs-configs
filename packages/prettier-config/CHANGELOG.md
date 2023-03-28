@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.7.0...@ahiho/prettier-config@1.8.0) (2023-03-28)
+
+
+### Features
+
+* update github workflows ([80bb2f2](https://github.com/ahiho/tjs-configs/commit/80bb2f22484b4c903f075a1a98fbc43aa435b9c8))
+
+
+
+
+
 # [1.7.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.6.0...@ahiho/prettier-config@1.7.0) (2023-03-28)
 
 
