@@ -25,4 +25,4 @@ jobs:
       - name: Publish
         run: |
           echo //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }} > .npmrc
-          npx lerna publish from-git conventional-commits false --yes --registry https://registry.npmjs.org
+          npx lerna publish from-git --conventional-commits false --yes --registry https://registry.npmjs.org
