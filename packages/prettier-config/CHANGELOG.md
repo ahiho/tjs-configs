@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.5.1...@ahiho/prettier-config@1.6.0) (2023-03-28)
+
+
+### Features
+
+* update prettier-config license ([e875f77](https://github.com/ahiho/tjs-configs/commit/e875f77ce612bfc53a6ede4b0ab7c54de57329c0))
+
+
+### Reverts
+
+* Revert "chore: made packages be public" ([ebdf37f](https://github.com/ahiho/tjs-configs/commit/ebdf37f920a34c0eff0a979ea7ad9b4598d9cdc7))
+
+
+
+
+
 ## [1.5.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.5.0...@ahiho/prettier-config@1.5.1) (2023-01-12)
 
 
