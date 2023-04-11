@@ -4,6 +4,10 @@ Ahiho's ESLint config for React.
 
 Read the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
+## Requirement
+
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+
 ## Installation
 
 ```shell
