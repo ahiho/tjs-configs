@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.7.3...@ahiho/eslint-config@1.8.0) (2023-04-11)
+
+
+### Features
+
+* add requirement node version and add test with node version 14, 16 ([4c0f0a1](https://github.com/ahiho/tjs-configs/commit/4c0f0a106baee0625744ea746231dfc48268fe2b))
+* change requirement user using node 14 and above can use package ([69f99f1](https://github.com/ahiho/tjs-configs/commit/69f99f13c2fb2924ef3cc540edaf93186fcc97b8))
+* update node version need to be use package ([565a050](https://github.com/ahiho/tjs-configs/commit/565a050bd12aff7bebb626680270da1dd03ecb5c))
+
+
+
+
+
 ## [1.7.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.7.2...@ahiho/eslint-config@1.7.3) (2023-03-27)
 
 **Note:** Version bump only for package @ahiho/eslint-config

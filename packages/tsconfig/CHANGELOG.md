@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.2.1...@ahiho/tsconfig@1.3.0) (2023-04-11)
+
+
+### Features
+
+* add requirement node version and add test with node version 14, 16 ([4c0f0a1](https://github.com/ahiho/tjs-configs/commit/4c0f0a106baee0625744ea746231dfc48268fe2b))
+* change requirement user using node 14 and above can use package ([69f99f1](https://github.com/ahiho/tjs-configs/commit/69f99f13c2fb2924ef3cc540edaf93186fcc97b8))
+* update node version need to be use package ([565a050](https://github.com/ahiho/tjs-configs/commit/565a050bd12aff7bebb626680270da1dd03ecb5c))
+
+
+### Reverts
+
+* Revert "chore: made packages be public" ([ebdf37f](https://github.com/ahiho/tjs-configs/commit/ebdf37f920a34c0eff0a979ea7ad9b4598d9cdc7))
+
+
+
+
+
 ## [1.2.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.2.0...@ahiho/tsconfig@1.2.1) (2023-01-12)
 
 
