@@ -4,6 +4,10 @@ Ahiho's Prettier config.
 
 Read the [Prettier config docs](https://prettier.io/docs/en/index.html) for more information.
 
+## Requirement
+
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+
 ## Installation
 
 ```shell

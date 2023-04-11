@@ -11,6 +11,10 @@ Ahiho's
 [Prettier config](https://prettier.io/docs/en/index.html),
 [TSConfig config](https://www.typescriptlang.org/tsconfig).
 
+## Requirement
+
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+
 ## Setup
 
 - Clone repo using [ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).

@@ -3,7 +3,7 @@
   "version": "1.2.1",
   "license": "UNLICENSED",
   "engines": {
-    "node": ">=14.0.0 <=18"
+    "node": ">=14.0.0 <=19.0.0"
   },
   "main": "tsconfig.json",
   "files": [

@@ -4,6 +4,10 @@ Ahiho's full commit lint config.
 
 Read the [Commitlint docs](https://github.com/conventional-changelog/commitlint) for more information.
 
+## Requirement
+
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+
 ## Installation
 
 ```shell

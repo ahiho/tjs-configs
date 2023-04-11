@@ -4,6 +4,10 @@ Ahiho's TSConfig.
 
 Read the [TSConfig docs](https://www.typescriptlang.org/tsconfig) for more information.
 
+## Requirement
+
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+
 ## Installation
 
 ```shell
