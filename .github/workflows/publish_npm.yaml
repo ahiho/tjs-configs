@@ -24,7 +24,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.PAT}}
       - name: Publish
         run: |
-          echo ${{secrets.NPM_TOKEN}} | base64 --decode > .npmrc
-          npx lerna publish from-git --conventional-commits false --yes --registry https://registry.npmjs.org
+          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          npx lerna publish from-git --conventional-commits false --yes --registry https://registry.npmjs.org --no-verify-access
         env:
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

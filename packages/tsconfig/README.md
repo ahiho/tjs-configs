@@ -15,7 +15,6 @@ yarn add --dev @ahiho/tsconfig
 ```
 
 ## Usage
-
 Create `tsconfig.json` file in the package directory to add the following content.
 
 ```json
