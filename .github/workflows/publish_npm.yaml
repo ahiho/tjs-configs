@@ -25,6 +25,7 @@ jobs:
       - name: Publish
         run: |
           echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          find packages -type d -maxdepth 1 -exec cp .npmrc {} \;
           npx lerna publish from-git --conventional-commits false --yes --registry https://registry.npmjs.org --no-verify-access
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
