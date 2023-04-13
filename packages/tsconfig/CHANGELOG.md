@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.4.2...@ahiho/tsconfig@1.4.3) (2023-04-13)
+
+
+### Bug Fixes
+
+* try release npm ([a2da5bd](https://github.com/ahiho/tjs-configs/commit/a2da5bd448f7ae09fbb14649e14913bf85e2b515))
+
+
+
+
+
 ## [1.4.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.4.1...@ahiho/tsconfig@1.4.2) (2023-04-13)
 
 
