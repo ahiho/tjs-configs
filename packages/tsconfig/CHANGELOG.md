@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.3.0...@ahiho/tsconfig@1.4.0) (2023-04-13)
+
+
+### Features
+
+* make @ahiho/tjs-configs public ([08df3d1](https://github.com/ahiho/tjs-configs/commit/08df3d11bb3274ac7694443f28ab336ffad68f3b))
+
+
+
+
+
 # [1.3.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.2.1...@ahiho/tsconfig@1.3.0) (2023-04-11)
 
 
