@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/tsconfig",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0 <=21.x.x"

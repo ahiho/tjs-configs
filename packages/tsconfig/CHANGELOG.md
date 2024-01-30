@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.4.6...@ahiho/tsconfig@1.5.0) (2024-01-30)
+
+
+### Features
+
+* update node version required ([357fe75](https://github.com/ahiho/tjs-configs/commit/357fe75f8ce196279ebabf18527dd034e7e6be71))
+
+
+
+
+
 ## [1.4.6](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.4.5...@ahiho/tsconfig@1.4.6) (2023-04-13)
 
 
