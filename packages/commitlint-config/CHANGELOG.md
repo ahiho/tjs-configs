@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.5.4...@ahiho/commitlint-config@1.5.5) (2024-02-05)
+
+
+### Bug Fixes
+
+* downgrade nx ([2c61042](https://github.com/ahiho/tjs-configs/commit/2c61042dbfdaeda66db7fe4294bb1a42090e7c8f))
+
 ## [1.5.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.5.3...@ahiho/commitlint-config@1.5.4) (2024-02-05)
 
 
