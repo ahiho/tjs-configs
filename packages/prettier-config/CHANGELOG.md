@@ -1,3 +1,10 @@
+## [1.11.6](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.11.5...@ahiho/prettier-config@1.11.6) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([8a8e62e](https://github.com/ahiho/tjs-configs/commit/8a8e62e13a02ac9483019fcd1501d012b77ea44f))
+
 ## [1.11.5](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.11.4...@ahiho/prettier-config@1.11.5) (2024-02-05)
 
 
