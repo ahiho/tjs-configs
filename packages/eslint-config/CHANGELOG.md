@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.11.0...@ahiho/eslint-config@1.11.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([db15bfa](https://github.com/ahiho/tjs-configs/commit/db15bfab881d5b0c8e0187490e8ad4a5c2ae9617))
+
 # [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.10.5...@ahiho/eslint-config@1.11.0) (2024-02-05)
 
 
