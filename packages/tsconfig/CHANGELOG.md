@@ -1,3 +1,10 @@
+## [1.7.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.7.1...@ahiho/tsconfig@1.7.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([ff52fb5](https://github.com/ahiho/tjs-configs/commit/ff52fb552b9955f838ca01d03c983cd458d498ea))
+
 ## [1.7.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.7.0...@ahiho/tsconfig@1.7.1) (2024-02-05)
 
 
