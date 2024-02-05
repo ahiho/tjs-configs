@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config-react",
-  "version": "1.10.3",
+  "version": "1.10.4",
   "description": "Ahiho's ESLint config react",
   "keywords": [
     "react",
