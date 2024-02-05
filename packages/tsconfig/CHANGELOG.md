@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.6.1...@ahiho/tsconfig@1.6.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* workflow ([0916eae](https://github.com/ahiho/tjs-configs/commit/0916eae6627749200c5f8927c9e4d2a152c22c5a))
+
 ## [1.6.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.6.0...@ahiho/tsconfig@1.6.1) (2024-02-05)
 
 
