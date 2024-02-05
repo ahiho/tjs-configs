@@ -1,50 +1,56 @@
-import { hasConfig } from './lib/has-config';
+import { hasConfig } from "./lib/has-config";
 
 const hasReact = hasConfig([
-  { type: 'dependency', dependency: 'react' },
-  { type: 'dependency', dependency: 'react', dependencyType: 'peer' },
+  { type: "dependency", dependency: "react" },
+  { type: "dependency", dependency: "react", dependencyType: "peer" },
 ]);
 
 const hasTypescript = hasConfig([
-  { type: 'dependency', dependency: 'typescript' },
-  { type: 'dependency', dependency: 'typescript', dependencyType: 'dev' },
-  { type: 'file', pattern: 'tsconfig.json' },
+  { type: "dependency", dependency: "typescript" },
+  { type: "dependency", dependency: "typescript", dependencyType: "dev" },
+  { type: "file", pattern: "tsconfig.json" },
 ]);
 
 const config = {
   extends: [
-    '@ahiho/eslint-config-ecmascript',
-    hasReact ? '@ahiho/eslint-config-react' : null,
-    hasTypescript ? '@ahiho/eslint-config-typescript' : null,
-    'prettier',
-    'plugin:jest/recommended',
+    "@ahiho/eslint-config-ecmascript",
+    hasReact ? "@ahiho/eslint-config-react" : null,
+    hasTypescript ? "@ahiho/eslint-config-typescript" : null,
+    "prettier",
+    "plugin:jest/recommended",
   ].filter((s) => !!s),
-  parser: '@typescript-eslint/parser',
+  parser: "@typescript-eslint/parser",
   env: {
     jest: true,
   },
   parserOptions: {
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: "module",
   },
-  plugins: ['functional', 'import', 'jest-formatting', 'simple-import-sort'],
+  plugins: ["functional", "import", "jest-formatting", "simple-import-sort"],
   rules: Object.assign(
     {
-      'jest/expect-expect': [
-        'error',
+      "jest/expect-expect": [
+        "error",
         {
-          assertFunctionNames: ['expect', 'supertest.**.expect', 'request.**.expect'],
+          assertFunctionNames: [
+            "expect",
+            "supertest.**.expect",
+            "request.**.expect",
+          ],
         },
       ],
-      'simple-import-sort/imports': 'error',
-      'simple-import-sort/exports': 'error',
-      'jest-formatting/padding-around-all': 'error',
-      'no-empty': 'error',
-      'no-empty-function': 'error',
-      curly: ['error', 'all'],
+      "simple-import-sort/imports": "error",
+      "simple-import-sort/exports": "error",
+      "jest-formatting/padding-around-all": "error",
+      "no-empty": "error",
+      "no-empty-function": "error",
+      curly: ["error", "all"],
     },
-    hasReact ? { '@typescript-eslint/explicit-function-return-type': 'off' } : {},
+    hasReact
+      ? { "@typescript-eslint/explicit-function-return-type": "off" }
+      : {}
   ),
 };
 
-export default config;
+export { config };
