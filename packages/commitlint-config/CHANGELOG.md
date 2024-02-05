@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.6.0...@ahiho/commitlint-config@1.6.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([db15bfa](https://github.com/ahiho/tjs-configs/commit/db15bfab881d5b0c8e0187490e8ad4a5c2ae9617))
+
 # [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.5.5...@ahiho/commitlint-config@1.6.0) (2024-02-05)
 
 
