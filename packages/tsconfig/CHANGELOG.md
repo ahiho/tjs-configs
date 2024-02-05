@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.7.4...@ahiho/tsconfig@1.8.0) (2024-02-05)
+
+
+### Features
+
+* ts to js ([1e6c639](https://github.com/ahiho/tjs-configs/commit/1e6c6393258f6148b011fd6bcad08ae3cf4239d9))
+
 ## [1.7.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.7.3...@ahiho/tsconfig@1.7.4) (2024-02-05)
 
 
