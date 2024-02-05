@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.8.1...@ahiho/eslint-config-typescript@1.8.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([ff52fb5](https://github.com/ahiho/tjs-configs/commit/ff52fb552b9955f838ca01d03c983cd458d498ea))
+
 ## [1.8.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.8.0...@ahiho/eslint-config-typescript@1.8.1) (2024-02-05)
 
 
