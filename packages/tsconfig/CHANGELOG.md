@@ -1,3 +1,10 @@
+## [1.6.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.6.3...@ahiho/tsconfig@1.6.4) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([8a8e62e](https://github.com/ahiho/tjs-configs/commit/8a8e62e13a02ac9483019fcd1501d012b77ea44f))
+
 ## [1.6.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.6.2...@ahiho/tsconfig@1.6.3) (2024-02-05)
 
 
