@@ -1,0 +1,31 @@
+{
+  "name": "@ahiho/commitlint-config",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/commitlint-config/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/commitlint-config",
+        "main": "packages/commitlint-config/src/index.ts",
+        "tsConfig": "packages/commitlint-config/tsconfig.lib.json",
+        "assets": ["packages/commitlint-config/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/commitlint-config {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/commitlint-config/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}

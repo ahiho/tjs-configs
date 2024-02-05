@@ -1,43 +1,47 @@
 {
   "name": "@ahiho/eslint-config",
   "version": "1.9.0",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0 <=21.x.x"
-  },
-  "main": "index.js",
-  "files": [
-    "get-consuming-root.js",
-    "has-config.js",
-    "has-key-in-obj.js",
-    "index.js",
-    "README.md"
+  "description": "Ahiho's ESLint config",
+  "keywords": [
+    "eslint",
+    "ahiho"
   ],
-  "scripts": {
-    "lint": "eslint . --ext .js",
-    "test": "jest"
+  "homepage": "https://github.com/ahiho/tjs-configs/packages/eslint-config",
+  "bugs": {
+    "url": "https://github.com/ahiho/tjs-configs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahiho/tjs-configs.git"
+    "url": "git+https://github.com/ahiho/tjs-configs.git",
+    "directory": "packages/eslint-config"
+  },
+  "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "@ahiho/eslint-config-ecmascript": "*",
+    "@ahiho/eslint-config-react": "*",
+    "@ahiho/eslint-config-typescript": "*",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-functional": "^6.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.6.3",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "glob": "^10.3.10",
+    "tslib": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "@ahiho/eslint-config-ecmascript": "^1.6.0",
-    "@ahiho/eslint-config-react": "^1.8.0",
-    "@ahiho/eslint-config-typescript": "^1.6.0",
-    "eslint": "^8.29.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-functional": "^4.4.1",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.5.3",
-    "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
-    "glob": "^8.0.3"
+    "access": "public",
+    "tag": "latest"
   },
   "devDependencies": {
-    "jest": "^29.3.1"
+    "@types/node": "^20.11.16"
   }
 }

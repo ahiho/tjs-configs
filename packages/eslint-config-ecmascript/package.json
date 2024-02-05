@@ -1,29 +1,35 @@
 {
   "name": "@ahiho/eslint-config-ecmascript",
   "version": "1.6.0",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0 <=21.x.x"
-  },
-  "main": "index.js",
-  "files": [
-    "es5.js",
-    "es6.js",
-    "index.js",
-    "README.md"
+  "description": "Ahiho's ESLint config ecmascript",
+  "keywords": [
+    "ecmascript",
+    "eslint",
+    "ahiho"
   ],
-  "scripts": {
-    "lint": "eslint . --ext .js",
-    "test": "echo test @ahiho/eslint-config"
+  "homepage": "https://github.com/ahiho/tjs-configs/packages/eslint-config-ecmascript",
+  "bugs": {
+    "url": "https://github.com/ahiho/tjs-configs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahiho/tjs-configs.git"
+    "url": "git+https://github.com/ahiho/tjs-configs.git",
+    "directory": "packages/eslint-config-ecmascript"
+  },
+  "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "tslib": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "eslint": "^8.29.0"
+    "access": "public",
+    "tag": "latest"
   }
 }

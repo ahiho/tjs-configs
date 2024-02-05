@@ -1,0 +1,31 @@
+{
+  "name": "@ahiho/eslint-config-ecmascript",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/eslint-config-ecmascript/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/eslint-config-ecmascript",
+        "main": "packages/eslint-config-ecmascript/src/index.ts",
+        "tsConfig": "packages/eslint-config-ecmascript/tsconfig.lib.json",
+        "assets": ["packages/eslint-config-ecmascript/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/eslint-config-ecmascript {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/eslint-config-ecmascript/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}

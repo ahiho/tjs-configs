@@ -1,37 +1,59 @@
 {
   "name": "@ahiho/tjs-configs",
-  "license": "UNLICENSED",
+  "version": "0.0.0",
   "private": "true",
-  "engines": {
-    "node": ">=14.0.0 <=21.x.x"
-  },
-  "scripts": {
-    "format:check": "prettier-config check",
-    "format:write": "prettier-config write",
-    "lint": "lerna run lint",
-    "test": "lerna run test",
-    "ci:test": "yarn format:check && yarn lint && yarn test",
-    "ci:install": "yarn install --frozen-lockfile",
-    "ci:build": "lerna run build",
-    "ci:release": "lerna publish"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ahiho/tjs-configs.git"
   },
+  "license": "UNLICENSED",
   "workspaces": [
     "packages/*"
   ],
-  "devDependencies": {
-    "lerna": "^6.1.0"
+  "scripts": {
+    "ci:build": "nx run-many --target=build",
+    "ci:install": "yarn install --frozen-lockfile",
+    "ci:release": "nx affected --target=release --base=main~1 --head=main --parallel=false",
+    "ci:test": "yarn format:check && yarn lint:check",
+    "format:check": "prettier-config check 'packages/**/*.{ts,json,*rc}'",
+    "format:write": "prettier-config write 'packages/**/*.{ts,json,*rc}'",
+    "lint:check": "eslint \"packages/**/*.ts\"",
+    "lint:fix": "eslint \"packages/**/*.ts\" --fix",
+    "nx": "node_modules/.bin/nx",
+    "prepare": "husky"
   },
+  "commitlint": {
+    "extends": "@ahiho/commitlint-config"
+  },
+  "lint-staged": {
+    "packages/**/*.ts": [
+      "yarn lint:fix"
+    ],
+    "./**/*.{ts,js,json,*rc}": [
+      "yarn format:write"
+    ]
+  },
+  "prettier": "@ahiho/prettier-config",
   "eslintConfig": {
     "extends": [
       "@ahiho/eslint-config"
     ]
   },
-  "prettier": "@ahiho/prettier-config",
-  "commitlint": {
-    "extends": "@ahiho/commitlint-config"
+  "devDependencies": {
+    "@ahiho/commitlint-config": "*",
+    "@ahiho/eslint-config": "*",
+    "@ahiho/prettier-config": "*",
+    "@ahiho/tsconfig": "*",
+    "@nx/js": "^18.0.1",
+    "@nx/workspace": "^18.0.1",
+    "husky": "^9.0.10",
+    "lint-staged": "^15.2.1",
+    "nx": "18.0.1",
+    "semantic-release-npm-github-publish": "^1.5.5",
+    "semantic-release-plus": "^20.0.0",
+    "typescript": "^5.3.3"
+  },
+  "nx": {
+    "includedScripts": []
   }
 }

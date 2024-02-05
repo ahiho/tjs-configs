@@ -1,0 +1,31 @@
+{
+  "name": "@ahiho/prettier-config",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/prettier-config/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/prettier-config",
+        "main": "packages/prettier-config/src/index.ts",
+        "tsConfig": "packages/prettier-config/tsconfig.lib.json",
+        "assets": ["packages/prettier-config/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/prettier-config {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/prettier-config/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}

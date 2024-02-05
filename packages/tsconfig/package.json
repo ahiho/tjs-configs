@@ -1,24 +1,28 @@
 {
   "name": "@ahiho/tsconfig",
   "version": "1.5.0",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0 <=21.x.x"
-  },
-  "main": "tsconfig.json",
-  "files": [
-    "tsconfig.json",
-    "README.md"
+  "description": "Ahiho's TSConfig",
+  "keywords": [
+    "typescript",
+    "ahiho"
   ],
-  "scripts": {
-    "lint": "echo lint @ahiho/tsconfig",
-    "test": "echo test @ahiho/tsconfig"
+  "homepage": "https://github.com/ahiho/tjs-configs/packages/tsconfig",
+  "bugs": {
+    "url": "https://github.com/ahiho/tjs-configs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahiho/tjs-configs.git"
+    "url": "git+https://github.com/ahiho/tjs-configs.git",
+    "directory": "packages/tsconfig"
+  },
+  "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "tag": "latest"
   }
 }

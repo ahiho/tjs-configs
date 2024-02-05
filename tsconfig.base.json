@@ -1,0 +1,51 @@
+{
+  "extends": "@ahiho/tsconfig",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "CommonJS",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ahiho/commitlint-config": [
+        "packages/commitlint-config/src/index.ts"
+      ],
+      "@ahiho/eslint-config": [
+        "packages/eslint-config/src/index.ts"
+      ],
+      "@ahiho/eslint-config-ecmascript": [
+        "packages/eslint-config-ecmascript/src/index.ts"
+      ],
+      "@ahiho/eslint-config-react": [
+        "packages/eslint-config-react/src/index.ts"
+      ],
+      "@ahiho/eslint-config-typescript": [
+        "packages/eslint-config-typescript/src/index.ts"
+      ],
+      "@ahiho/prettier-config": [
+        "packages/prettier-config/src/index.ts"
+      ],
+      "@ahiho/tsconfig": [
+        "packages/tsconfig/src/index.ts"
+      ],
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
+}
