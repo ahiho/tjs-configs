@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.10.4...@ahiho/eslint-config-react@1.11.0) (2024-02-05)
+
+
+### Features
+
+* update packages ([46cc481](https://github.com/ahiho/tjs-configs/commit/46cc481561d59f8cca5decc56df81e007b29533d))
+
 ## [1.10.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.10.3...@ahiho/eslint-config-react@1.10.4) (2024-02-05)
 
 
