@@ -1,5 +1,4 @@
 {
-  "extends": "@ahiho/tsconfig",
   "compileOnSave": false,
   "compilerOptions": {
     "rootDir": ".",

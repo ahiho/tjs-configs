@@ -21,9 +21,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@ahiho"
 
-      - run: |
-          yarn ci:install
-          yarn ci:build
+      - run: yarn ci:install
         env:
           NODE_AUTH_TOKEN: ${{ secrets.PAT }}
 
@@ -37,4 +35,3 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PAT }}
           NODE_AUTH_TOKEN: ${{ github.token }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
