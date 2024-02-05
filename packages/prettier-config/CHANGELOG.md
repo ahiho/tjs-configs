@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.11.1...@ahiho/prettier-config@1.11.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* workflow ([0916eae](https://github.com/ahiho/tjs-configs/commit/0916eae6627749200c5f8927c9e4d2a152c22c5a))
+
 ## [1.11.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.11.0...@ahiho/prettier-config@1.11.1) (2024-02-05)
 
 
