@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.9.1...@ahiho/eslint-config-react@1.9.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* workflow ([0916eae](https://github.com/ahiho/tjs-configs/commit/0916eae6627749200c5f8927c9e4d2a152c22c5a))
+
 ## [1.9.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.9.0...@ahiho/eslint-config-react@1.9.1) (2024-02-05)
 
 
