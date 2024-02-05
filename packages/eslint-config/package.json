@@ -17,7 +17,6 @@
   },
   "license": "UNLICENSED",
   "author": "Thanh Vu <thanh@ahiho.com>",
-  "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
@@ -31,8 +30,7 @@
     "eslint-plugin-jest": "^27.6.3",
     "eslint-plugin-jest-formatting": "^3.1.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "glob": "^10.3.10",
-    "tslib": "^2.6.2"
+    "glob": "^8.0.3"
   },
   "engines": {
     "node": ">=14.0.0 <=21.x.x"

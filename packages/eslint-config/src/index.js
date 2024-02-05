@@ -1,4 +1,4 @@
-import { hasConfig } from "./lib/has-config";
+const { hasConfig } = require("./lib/has-config");
 
 const hasReact = hasConfig([
   { type: "dependency", dependency: "react" },
@@ -11,7 +11,7 @@ const hasTypescript = hasConfig([
   { type: "file", pattern: "tsconfig.json" },
 ]);
 
-const config = {
+module.exports = {
   extends: [
     "@ahiho/eslint-config-ecmascript",
     hasReact ? "@ahiho/eslint-config-react" : null,
@@ -52,5 +52,3 @@ const config = {
       : {}
   ),
 };
-
-export { config };

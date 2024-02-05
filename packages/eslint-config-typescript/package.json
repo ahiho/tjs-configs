@@ -18,14 +18,12 @@
   },
   "license": "UNLICENSED",
   "author": "Thanh Vu <thanh@ahiho.com>",
-  "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
     "eslint": "^8.56.0",
-    "tslib": "^2.6.2",
     "typescript": "^5.3.3"
   },
   "engines": {

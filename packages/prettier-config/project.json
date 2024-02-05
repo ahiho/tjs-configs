@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/prettier-config",
-        "main": "packages/prettier-config/src/index.ts",
+        "main": "packages/prettier-config/src/index.js",
         "tsConfig": "packages/prettier-config/tsconfig.lib.json",
         "assets": ["packages/prettier-config/*.md"]
       }

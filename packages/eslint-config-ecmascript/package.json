@@ -18,12 +18,10 @@
   },
   "license": "UNLICENSED",
   "author": "Thanh Vu <thanh@ahiho.com>",
-  "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {
-    "eslint": "^8.56.0",
-    "tslib": "^2.6.2"
+    "eslint": "^8.56.0"
   },
   "engines": {
     "node": ">=14.0.0 <=21.x.x"
