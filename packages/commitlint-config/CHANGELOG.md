@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.5.1...@ahiho/commitlint-config@1.5.2) (2024-02-05)
+
+
+### Bug Fixes
+
+* workflow ([0916eae](https://github.com/ahiho/tjs-configs/commit/0916eae6627749200c5f8927c9e4d2a152c22c5a))
+
 ## [1.5.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.5.0...@ahiho/commitlint-config@1.5.1) (2024-02-05)
 
 
