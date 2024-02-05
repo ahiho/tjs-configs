@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config",
-  "version": "1.11.2",
+  "version": "1.11.3",
   "description": "Ahiho's ESLint config",
   "keywords": [
     "eslint",
