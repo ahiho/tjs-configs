@@ -20,7 +20,7 @@ module.exports = {
       "@semantic-release/npm",
       {
         npmPublish: true,
-        pkgRoot: `dist/${srcRoot}`,
+        pkgRoot: srcRoot,
       },
     ],
     "@semantic-release/github",
