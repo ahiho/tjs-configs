@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config-ecmascript",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Ahiho's ESLint config ecmascript",
   "keywords": [
     "ecmascript",
