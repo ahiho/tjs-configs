@@ -4,8 +4,19 @@
   "sourceRoot": "packages/tsconfig/src",
   "projectType": "library",
   "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/tsconfig",
+        "main": "packages/tsconfig/tsconfig.json",
+        "tsConfig": "packages/tsconfig/tsconfig.lib.json",
+        "assets": ["packages/tsconfig/*.md", "packages/tsconfig/tsconfig.json"]
+      }
+    },
     "publish": {
-      "command": "node tools/scripts/publish.mjs @ahiho/tsconfig {args.ver} {args.tag}"
+      "command": "node tools/scripts/publish.mjs @ahiho/tsconfig {args.ver} {args.tag}",
+      "dependsOn": ["build"]
     },
     "release": {
       "executor": "nx:run-commands",

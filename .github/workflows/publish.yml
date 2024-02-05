@@ -21,9 +21,11 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: "@ahiho"
 
-      - run: yarn ci:install
+      - run: |
+          yarn ci:install
+          yarn ci:build
         env:
-          NODE_AUTH_TOKEN: ${{secrets.PAT}}
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
 
       - run: echo "PACKAGE=$(sed -e s:@[^@]*$::g <<< ${GITHUB_REF#refs/*/})" >> $GITHUB_ENV
       - run: echo "RELEASE_VERSION=$(sed -e s:.*@::g <<< ${GITHUB_REF#refs/*/})" >> $GITHUB_ENV
