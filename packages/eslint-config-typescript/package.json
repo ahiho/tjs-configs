@@ -32,7 +32,6 @@
     "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "latest"
+    "access": "public"
   }
 }
