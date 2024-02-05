@@ -15,7 +15,7 @@
     "url": "https://github.com/ahiho/tjs-configs.git",
     "directory": "packages/eslint-config"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "author": "Thanh Vu <thanh@ahiho.com>",
   "type": "commonjs",
   "main": "./src/index.js",

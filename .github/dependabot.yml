@@ -3,17 +3,17 @@ registries:
   npm-github:
     type: npm-registry
     url: https://npm.pkg.github.com
-    token: ${{secrets.PAT}}
+    token: ${{ secrets.PAT }}
 updates:
-  - package-ecosystem: 'npm'
+  - package-ecosystem: "npm"
     registries:
       - npm-github
-    directory: '/'
-    versioning-strategy: 'increase'
+    directory: "/"
+    versioning-strategy: "increase"
     commit-message:
-      prefix: 'fix'
-      include: 'scope'
+      prefix: "fix"
+      include: "scope"
     schedule:
-      interval: 'daily'
-      time: '06:00'
-      timezone: 'Asia/Bangkok'
+      interval: "daily"
+      time: "06:00"
+      timezone: "Asia/Bangkok"

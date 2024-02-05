@@ -15,7 +15,7 @@
     "url": "https://github.com/ahiho/tjs-configs.git",
     "directory": "packages/tsconfig"
   },
-  "license": "MIT",
+  "license": "UNLICENSED",
   "author": "Thanh Vu <thanh@ahiho.com>",
   "main": "tsconfig.json",
   "engines": {
