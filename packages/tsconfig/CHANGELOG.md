@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.6.0...@ahiho/tsconfig@1.6.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* update tsconfig.base.json ([c295b79](https://github.com/ahiho/tjs-configs/commit/c295b7910d9902a6ebb668a46ca882a4110aea27))
+
 # [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.5.0...@ahiho/tsconfig@1.6.0) (2024-02-05)
 
 
