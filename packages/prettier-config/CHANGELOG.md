@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.13.0...@ahiho/prettier-config@1.14.0) (2024-02-05)
+
+
+### Features
+
+* ts to js ([1e6c639](https://github.com/ahiho/tjs-configs/commit/1e6c6393258f6148b011fd6bcad08ae3cf4239d9))
+
 # [1.13.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.12.4...@ahiho/prettier-config@1.13.0) (2024-02-05)
 
 
