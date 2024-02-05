@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.9.0...@ahiho/eslint-config-react@1.9.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* update tsconfig.base.json ([c295b79](https://github.com/ahiho/tjs-configs/commit/c295b7910d9902a6ebb668a46ca882a4110aea27))
+
 # [1.9.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.8.0...@ahiho/eslint-config-react@1.9.0) (2024-02-05)
 
 
