@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.8.4...@ahiho/eslint-config-ecmascript@1.9.0) (2024-02-05)
+
+
+### Features
+
+* update packages ([46cc481](https://github.com/ahiho/tjs-configs/commit/46cc481561d59f8cca5decc56df81e007b29533d))
+
 ## [1.8.4](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.8.3...@ahiho/eslint-config-ecmascript@1.8.4) (2024-02-05)
 
 
