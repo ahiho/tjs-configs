@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.9.0...@ahiho/eslint-config-typescript@1.10.0) (2024-02-05)
+
+
+### Features
+
+* ts to js ([1e6c639](https://github.com/ahiho/tjs-configs/commit/1e6c6393258f6148b011fd6bcad08ae3cf4239d9))
+
 # [1.9.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.8.4...@ahiho/eslint-config-typescript@1.9.0) (2024-02-05)
 
 
