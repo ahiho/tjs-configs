@@ -16,6 +16,7 @@
     "directory": "packages/tsconfig"
   },
   "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
   "main": "tsconfig.json",
   "engines": {
     "node": ">=14.0.0 <=21.x.x"

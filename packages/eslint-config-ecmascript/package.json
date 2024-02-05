@@ -17,6 +17,7 @@
     "directory": "packages/eslint-config-ecmascript"
   },
   "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
   "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
