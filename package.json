@@ -24,10 +24,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@ahiho/commitlint-config": "*",
-    "@ahiho/eslint-config": "*",
-    "@ahiho/prettier-config": "*",
-    "@ahiho/tsconfig": "*",
     "@nx/js": "^18.0.1",
     "@nx/workspace": "^18.0.1",
     "@semantic-release/changelog": "^6.0.3",

@@ -17,6 +17,24 @@
     ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "removeComments": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "allowUnreachableCode": false,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
       "@ahiho/commitlint-config": [
@@ -41,8 +59,6 @@
         "packages/tsconfig/src/index.ts"
       ],
     },
-    "noUnusedLocals": false,
-    "noUnusedParameters": false
   },
   "exclude": [
     "node_modules",

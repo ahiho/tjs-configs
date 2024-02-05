@@ -23,7 +23,7 @@ jobs:
 
       - run: yarn ci:install
         env:
-          NODE_AUTH_TOKEN: ${{secrets.PAT}}
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
 
       - run: |
           git config --global user.email "action@github.com"

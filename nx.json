@@ -18,15 +18,8 @@
   },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
-    "production": [
-      "default",
-      "!{projectRoot}/.eslintrc.json",
-      "!{projectRoot}/eslint.config.js"
-    ],
+    "production": ["default"],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "ZTc3MzE5YmUtY2RiZi00ZTQ0LTgzMjYtNGNkMTQ0NGU5NjUyfHJlYWQtd3JpdGU=",
-  "affected": {
-    "defaultBase": "main"
-  }
+  "nxCloudAccessToken": "ZTc3MzE5YmUtY2RiZi00ZTQ0LTgzMjYtNGNkMTQ0NGU5NjUyfHJlYWQtd3JpdGU="
 }
