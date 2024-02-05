@@ -1,0 +1,20 @@
+{
+  "name": "@ahiho/tsconfig",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/tsconfig/src",
+  "projectType": "library",
+  "targets": {
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/tsconfig {args.ver} {args.tag}"
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/tsconfig/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}

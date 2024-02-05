@@ -1,0 +1,31 @@
+{
+  "name": "@ahiho/eslint-config-typescript",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/eslint-config-typescript/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/eslint-config-typescript",
+        "main": "packages/eslint-config-typescript/src/index.ts",
+        "tsConfig": "packages/eslint-config-typescript/tsconfig.lib.json",
+        "assets": ["packages/eslint-config-typescript/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/eslint-config-typescript {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/eslint-config-typescript/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}

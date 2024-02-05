@@ -1,29 +1,35 @@
 {
   "name": "@ahiho/prettier-config",
   "version": "1.10.0",
-  "license": "MIT",
-  "engines": {
-    "node": ">=14.0.0 <=21.x.x"
-  },
-  "bin": "./cli.js",
-  "main": "index.js",
-  "files": [
-    "cli.js",
-    "index.js",
-    "README.md"
+  "description": "Ahiho's Prettier config",
+  "keywords": [
+    "prettier",
+    "ahiho"
   ],
-  "scripts": {
-    "lint": "eslint . --ext .js",
-    "test": "echo test @ahiho/prettier-config"
+  "homepage": "https://github.com/ahiho/tjs-configs/packages/prettier-config",
+  "bugs": {
+    "url": "https://github.com/ahiho/tjs-configs/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahiho/tjs-configs.git"
+    "url": "git+https://github.com/ahiho/tjs-configs.git",
+    "directory": "packages/prettier-config"
+  },
+  "license": "MIT",
+  "author": "Thanh Vu <thanh@ahiho.com>",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "bin": "./src/cli.js",
+  "dependencies": {
+    "prettier": "^3.2.5",
+    "tslib": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public"
-  },
-  "dependencies": {
-    "prettier": "^2.8.2"
+    "access": "public",
+    "tag": "latest"
   }
 }

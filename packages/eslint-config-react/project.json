@@ -1,0 +1,31 @@
+{
+  "name": "@ahiho/eslint-config-react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/eslint-config-react/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/eslint-config-react",
+        "main": "packages/eslint-config-react/src/index.ts",
+        "tsConfig": "packages/eslint-config-react/tsconfig.lib.json",
+        "assets": ["packages/eslint-config-react/*.md"]
+      }
+    },
+    "publish": {
+      "command": "node tools/scripts/publish.mjs @ahiho/eslint-config-react {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
+    "release": {
+      "executor": "nx:run-commands",
+      "dependsOn": ["build"],
+      "outputs": [],
+      "options": {
+        "command": "npx semantic-release-plus --extends ./packages/eslint-config-react/release.config.js"
+      }
+    }
+  },
+  "tags": []
+}
