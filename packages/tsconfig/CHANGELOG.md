@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.5.0...@ahiho/tsconfig@1.6.0) (2024-02-05)
+
+
+### Bug Fixes
+
+* semantic release ([5a5b938](https://github.com/ahiho/tjs-configs/commit/5a5b938c5741b15ab79c24f8d09b5d3549e36007))
+
+
+### Features
+
+* migrate from lerna to nx ([#210](https://github.com/ahiho/tjs-configs/issues/210)) ([5d54a08](https://github.com/ahiho/tjs-configs/commit/5d54a08e10c496ed5bbafb07eb2c050001866ffb))
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
