@@ -22,23 +22,7 @@
     "nx": "node_modules/.bin/nx",
     "prepare": "husky"
   },
-  "commitlint": {
-    "extends": "@ahiho/commitlint-config"
-  },
-  "lint-staged": {
-    "packages/**/*.ts": [
-      "yarn lint:fix"
-    ],
-    "./**/*.{ts,js,json,*rc}": [
-      "yarn format:write"
-    ]
-  },
-  "prettier": "@ahiho/prettier-config",
-  "eslintConfig": {
-    "extends": [
-      "@ahiho/eslint-config"
-    ]
-  },
+  "dependencies": {},
   "devDependencies": {
     "@ahiho/commitlint-config": "*",
     "@ahiho/eslint-config": "*",
@@ -47,11 +31,7 @@
     "@nx/js": "^18.0.1",
     "@nx/workspace": "^18.0.1",
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/github": "^9.2.6",
-    "@semantic-release/npm": "^11.0.2",
-    "@semantic-release/release-notes-generator": "^12.1.0",
     "husky": "^9.0.10",
     "lint-staged": "^15.2.1",
     "nx": "18.0.1",
