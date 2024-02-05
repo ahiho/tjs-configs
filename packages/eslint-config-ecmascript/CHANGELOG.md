@@ -1,3 +1,10 @@
+## [1.7.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.7.2...@ahiho/eslint-config-ecmascript@1.7.3) (2024-02-05)
+
+
+### Bug Fixes
+
+* release packages ([a28466e](https://github.com/ahiho/tjs-configs/commit/a28466e2fa1109920dbfdd3c9cfb5744ce99a971))
+
 ## [1.7.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.7.1...@ahiho/eslint-config-ecmascript@1.7.2) (2024-02-05)
 
 
