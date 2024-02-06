@@ -17,7 +17,6 @@
     "directory": "packages/eslint-config-typescript"
   },
   "license": "UNLICENSED",
-  "author": "Thanh Vu <thanh@ahiho.com>",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {

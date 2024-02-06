@@ -16,7 +16,6 @@
     "directory": "packages/commitlint-config"
   },
   "license": "UNLICENSED",
-  "author": "Thanh Vu <thanh@ahiho.com>",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "dependencies": {

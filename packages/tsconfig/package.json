@@ -16,7 +16,6 @@
     "directory": "packages/tsconfig"
   },
   "license": "UNLICENSED",
-  "author": "Thanh Vu <thanh@ahiho.com>",
   "main": "tsconfig.json",
   "engines": {
     "node": ">=14.0.0 <=21.x.x"
