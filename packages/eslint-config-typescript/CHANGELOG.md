@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.10.1...@ahiho/eslint-config-typescript@1.10.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* update package.json ([c7b771e](https://github.com/ahiho/tjs-configs/commit/c7b771e1dd6f7799fe620d7bb76c850731e3b5a5))
+
 ## [1.10.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.10.0...@ahiho/eslint-config-typescript@1.10.1) (2024-02-06)
 
 

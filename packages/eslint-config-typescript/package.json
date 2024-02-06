@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/eslint-config-typescript",
-  "version": "1.10.1",
+  "version": "1.10.2",
   "description": "Ahiho's ESLint config typescript",
   "keywords": [
     "typescript",
