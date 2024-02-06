@@ -18,6 +18,10 @@
       "command": "node tools/scripts/publish.mjs @ahiho/commitlint-config {args.ver} {args.tag}",
       "dependsOn": ["build"]
     },
+    "publish-npm": {
+      "command": "node tools/scripts/publish-npm.mjs @ahiho/commitlint-config {args.ver} {args.tag}",
+      "dependsOn": ["build"]
+    },
     "release": {
       "executor": "nx:run-commands",
       "dependsOn": ["build"],

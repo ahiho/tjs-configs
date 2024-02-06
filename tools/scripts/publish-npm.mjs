@@ -49,4 +49,4 @@ try {
 }
 
 // Execute "yarn publish" to publish
-execSync(`yarn publish --tag ${tag}`);
+execSync(`npm publish --tag ${tag}`);

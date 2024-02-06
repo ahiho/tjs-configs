@@ -29,7 +29,7 @@ jobs:
 
       - run: |
           npm config set //registry.npmjs.org/:_authToken=${NPM_TOKEN}
-          yarn nx publish ${PACKAGE} --ver ${RELEASE_VERSION}
+          yarn nx publish-npm ${PACKAGE} --ver ${RELEASE_VERSION}
         env:
           GH_TOKEN: ${{ secrets.PAT }}
           NODE_AUTH_TOKEN: ${{ github.token }}
