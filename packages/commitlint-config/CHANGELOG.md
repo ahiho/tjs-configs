@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.8.3...@ahiho/commitlint-config@1.9.0) (2024-02-06)
+
+
+### Features
+
+* update script publish npm ([c643fa8](https://github.com/ahiho/tjs-configs/commit/c643fa84a1348eb500931c84f83aa244e79d25d0))
+
 ## [1.8.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.8.2...@ahiho/commitlint-config@1.8.3) (2024-02-06)
 
 
