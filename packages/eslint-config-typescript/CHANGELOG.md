@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.10.0...@ahiho/eslint-config-typescript@1.10.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* tsconfig ([e1a7c0d](https://github.com/ahiho/tjs-configs/commit/e1a7c0d0b739b6de5231f9335a7e6a5c68672892))
+
 # [1.10.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.9.0...@ahiho/eslint-config-typescript@1.10.0) (2024-02-05)
 
 
