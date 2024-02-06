@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "module": "commonjs",
     "allowJs": true,
@@ -9,7 +9,6 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": "."
   },
   "files": [],
   "include": [],
