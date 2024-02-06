@@ -15,6 +15,7 @@
     "url": "https://github.com/ahiho/tjs-configs.git",
     "directory": "packages/prettier-config"
   },
+  "license": "UNLICENSED",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "bin": "./src/cli.js",
