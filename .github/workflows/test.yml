@@ -1,0 +1,68 @@
+name: ✨ Test
+
+on:
+  push:
+    branches:
+      - "**"
+      - "!main"
+
+jobs:
+  test-node20:
+    name: Run tests using node 20
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Test
+        run: yarn ci:install && yarn ci:test
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
+
+  test-node18:
+    name: Run tests using node 18
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Test
+        run: yarn ci:install && yarn ci:test
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
+
+  test-node16:
+    name: Run tests using node 16
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 16
+
+      - name: Test
+        run: yarn ci:install && yarn ci:test
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
+
+  test-node14:
+    name: Run tests using node 14
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 14
+
+      - name: Test
+        run: yarn ci:install && yarn ci:test
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PAT }}
