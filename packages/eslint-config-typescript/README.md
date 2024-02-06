@@ -6,7 +6,7 @@ Read the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#exte
 
 ## Requirement
 
-- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 21)
 
 ## Installation
 

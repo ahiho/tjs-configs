@@ -6,7 +6,7 @@ Read the [TSConfig docs](https://www.typescriptlang.org/tsconfig) for more infor
 
 ## Requirement
 
-- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 21)
 
 ## Installation
 

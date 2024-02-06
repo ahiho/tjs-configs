@@ -6,7 +6,7 @@ Read the [Commitlint docs](https://github.com/conventional-changelog/commitlint)
 
 ## Requirement
 
-- [NodeJS](https://nodejs.org) (version >= 14.x and <= 19)
+- [NodeJS](https://nodejs.org) (version >= 14.x and <= 21)
 
 ## Installation
 

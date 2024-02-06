@@ -19,6 +19,8 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+          token: ${{ secrets.NPM_TOKEN }}
+          scope: "@ahiho"
 
       - run: yarn ci:install
         env:
@@ -28,10 +30,6 @@ jobs:
       - run: echo "RELEASE_VERSION=$(sed -e s:.*@::g <<< ${GITHUB_REF#refs/*/})" >> $GITHUB_ENV
 
       - run: |
-          npm config set //registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}
-          npm config set scope "@ahiho"
           yarn nx publish-npm ${PACKAGE} --ver ${RELEASE_VERSION}
         env:
-          GH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
