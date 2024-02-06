@@ -1,3 +1,10 @@
+## [1.13.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.13.2...@ahiho/eslint-config@1.13.3) (2024-02-06)
+
+
+### Bug Fixes
+
+* update package.json ([3eef255](https://github.com/ahiho/tjs-configs/commit/3eef255c6c9446856a84e2d06ee0fcf42c06d251))
+
 ## [1.13.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.13.1...@ahiho/eslint-config@1.13.2) (2024-02-06)
 
 
