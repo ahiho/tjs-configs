@@ -28,7 +28,7 @@ jobs:
       - run: echo "RELEASE_VERSION=$(sed -e s:.*@::g <<< ${GITHUB_REF#refs/*/})" >> $GITHUB_ENV
 
       - run: |
-          npm config set //registry.npmjs.org/:_authToken=${NPM_TOKEN}
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
           yarn nx publish-npm ${PACKAGE} --ver ${RELEASE_VERSION}
         env:
           GH_TOKEN: ${{ secrets.PAT }}

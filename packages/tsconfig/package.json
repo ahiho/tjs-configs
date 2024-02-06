@@ -15,7 +15,6 @@
     "url": "https://github.com/ahiho/tjs-configs.git",
     "directory": "packages/tsconfig"
   },
-  "license": "UNLICENSED",
   "main": "tsconfig.json",
   "engines": {
     "node": ">=14.0.0 <=21.x.x"

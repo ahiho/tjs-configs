@@ -49,4 +49,6 @@ try {
 }
 
 // Execute "yarn publish" to publish
-execSync(`npm publish --tag ${tag}`);
+execSync(
+  `npm publish --tag ${tag} --access public --registry=https://registry.npmjs.org/`
+);
