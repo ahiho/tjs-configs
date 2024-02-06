@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.10.0...@ahiho/commitlint-config@1.10.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* lint ([5a8abbd](https://github.com/ahiho/tjs-configs/commit/5a8abbde777a546c0629ce05fc01857d2bff3e99))
+
 # [1.10.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.9.2...@ahiho/commitlint-config@1.10.0) (2024-02-06)
 
 
