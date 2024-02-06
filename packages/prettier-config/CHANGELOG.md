@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.15.2...@ahiho/prettier-config@1.16.0) (2024-02-06)
+
+
+### Features
+
+* update README.md ([a0db565](https://github.com/ahiho/tjs-configs/commit/a0db56555619a4817d6f0fbc85089ca85b274849))
+
 ## [1.15.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.15.1...@ahiho/prettier-config@1.15.2) (2024-02-06)
 
 
