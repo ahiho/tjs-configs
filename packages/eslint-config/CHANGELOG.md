@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.15.1...@ahiho/eslint-config@1.16.0) (2024-02-06)
+
+
+### Features
+
+* **eslint-config:** add jest ([ec46efc](https://github.com/ahiho/tjs-configs/commit/ec46efcc4a242ded52a178ec7cb82b9a7a3a7dda))
+
 ## [1.15.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.15.0...@ahiho/eslint-config@1.15.1) (2024-02-06)
 
 
