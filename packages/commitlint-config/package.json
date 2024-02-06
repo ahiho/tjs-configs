@@ -1,6 +1,6 @@
 {
   "name": "@ahiho/commitlint-config",
-  "version": "1.9.2",
+  "version": "1.10.0",
   "description": "Ahiho's commit convention",
   "keywords": [
     "commitlint",
