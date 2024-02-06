@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.14.3...@ahiho/prettier-config@1.15.0) (2024-02-06)
+
+
+### Features
+
+* update script publish npm ([c643fa8](https://github.com/ahiho/tjs-configs/commit/c643fa84a1348eb500931c84f83aa244e79d25d0))
+
 ## [1.14.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.14.2...@ahiho/prettier-config@1.14.3) (2024-02-06)
 
 
