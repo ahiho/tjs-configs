@@ -16,10 +16,27 @@
     "ci:test": "yarn format:check && yarn lint:check",
     "format:check": "prettier-config check 'packages/**/*.{ts,json,*rc}'",
     "format:write": "prettier-config write 'packages/**/*.{ts,json,*rc}'",
-    "lint:check": "eslint \"packages/**/*.ts\"",
-    "lint:fix": "eslint \"packages/**/*.ts\" --fix",
+    "lint:check": "eslint \"packages/**/*.{js,ts}\"",
+    "lint:fix": "eslint \"packages/**/*.{js,ts}\" --fix",
     "nx": "node_modules/.bin/nx",
     "prepare": "husky"
+  },
+  "commitlint": {
+    "extends": "@ahiho/commitlint-config"
+  },
+  "lint-staged": {
+    "packages/**/*.ts": [
+      "yarn lint:fix"
+    ],
+    "./**/*.{ts,js,json,*rc}": [
+      "yarn format:write"
+    ]
+  },
+  "prettier": "@ahiho/prettier-config",
+  "eslintConfig": {
+    "extends": [
+      "@ahiho/eslint-config"
+    ]
   },
   "dependencies": {},
   "devDependencies": {

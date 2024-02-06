@@ -39,6 +39,7 @@
     "tag": "latest"
   },
   "devDependencies": {
-    "@types/node": "^20.11.16"
+    "@types/node": "^20.11.16",
+    "jest": "^29.7.0"
   }
 }
