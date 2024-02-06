@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.11.0...@ahiho/eslint-config-ecmascript@1.11.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* publish npm ([2371329](https://github.com/ahiho/tjs-configs/commit/23713292ace936afcf40f9e2867d84a480d06456))
+
 # [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.10.3...@ahiho/eslint-config-ecmascript@1.11.0) (2024-02-06)
 
 
