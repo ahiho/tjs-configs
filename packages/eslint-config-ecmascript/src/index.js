@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./es5.js', './es6.js'],
+  extends: ['./lib/es5.js', './lib/es6.js'],
 };
