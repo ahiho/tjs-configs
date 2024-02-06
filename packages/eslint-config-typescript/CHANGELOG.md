@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.10.3...@ahiho/eslint-config-typescript@1.11.0) (2024-02-06)
+
+
+### Features
+
+* update script publish npm ([c643fa8](https://github.com/ahiho/tjs-configs/commit/c643fa84a1348eb500931c84f83aa244e79d25d0))
+
 ## [1.10.3](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.10.2...@ahiho/eslint-config-typescript@1.10.3) (2024-02-06)
 
 
