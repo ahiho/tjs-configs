@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.8.0...@ahiho/tsconfig@1.8.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* update package.json ([c7b771e](https://github.com/ahiho/tjs-configs/commit/c7b771e1dd6f7799fe620d7bb76c850731e3b5a5))
+
 # [1.8.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.7.4...@ahiho/tsconfig@1.8.0) (2024-02-05)
 
 
