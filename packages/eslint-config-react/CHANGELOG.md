@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.14.0...@ahiho/eslint-config-react@1.14.1) (2024-02-06)
+
+
+### Bug Fixes
+
+* lint ([5a8abbd](https://github.com/ahiho/tjs-configs/commit/5a8abbde777a546c0629ce05fc01857d2bff3e99))
+
 # [1.14.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.13.2...@ahiho/eslint-config-react@1.14.0) (2024-02-06)
 
 
