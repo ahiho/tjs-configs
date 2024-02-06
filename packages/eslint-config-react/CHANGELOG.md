@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.13.1...@ahiho/eslint-config-react@1.13.2) (2024-02-06)
+
+
+### Bug Fixes
+
+* publish npm ([34d818b](https://github.com/ahiho/tjs-configs/commit/34d818b426c5348aa3fd612f421cc7e37c4d6497))
+
 ## [1.13.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-react@1.13.0...@ahiho/eslint-config-react@1.13.1) (2024-02-06)
 
 
