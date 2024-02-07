@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.12.1...@ahiho/eslint-config-ecmascript@1.13.0) (2024-02-07)
+
+
+### Features
+
+* update package.json ([040e021](https://github.com/ahiho/tjs-configs/commit/040e0212c6c283374b3df55cb24eb13f29591cfb))
+
 ## [1.12.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-ecmascript@1.12.0...@ahiho/eslint-config-ecmascript@1.12.1) (2024-02-06)
 
 
