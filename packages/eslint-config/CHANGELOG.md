@@ -1,3 +1,10 @@
+## [1.16.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.16.0...@ahiho/eslint-config@1.16.1) (2024-02-07)
+
+
+### Bug Fixes
+
+* **eslint-config:** add eslint-plugin-prettier ([492fab1](https://github.com/ahiho/tjs-configs/commit/492fab1d6f873a96ef776a65f9c3973456345ad5))
+
 # [1.16.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config@1.15.1...@ahiho/eslint-config@1.16.0) (2024-02-06)
 
 
