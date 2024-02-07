@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.16.1...@ahiho/prettier-config@1.17.0) (2024-02-07)
+
+
+### Features
+
+* update package.json ([040e021](https://github.com/ahiho/tjs-configs/commit/040e0212c6c283374b3df55cb24eb13f29591cfb))
+
 ## [1.16.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/prettier-config@1.16.0...@ahiho/prettier-config@1.16.1) (2024-02-06)
 
 
