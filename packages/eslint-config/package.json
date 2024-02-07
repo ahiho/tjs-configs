@@ -36,8 +36,7 @@
     "node": ">=14.0.0 <=21.x.x"
   },
   "publishConfig": {
-    "access": "public",
-    "tag": "latest"
+    "access": "public"
   },
   "devDependencies": {
     "@types/node": "^20.11.16",
