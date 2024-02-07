@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.10.1...@ahiho/commitlint-config@1.11.0) (2024-02-07)
+
+
+### Features
+
+* update package.json ([040e021](https://github.com/ahiho/tjs-configs/commit/040e0212c6c283374b3df55cb24eb13f29591cfb))
+
 ## [1.10.1](https://github.com/ahiho/tjs-configs/compare/@ahiho/commitlint-config@1.10.0...@ahiho/commitlint-config@1.10.1) (2024-02-06)
 
 
