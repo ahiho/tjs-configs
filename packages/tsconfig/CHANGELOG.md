@@ -1,3 +1,11 @@
+# [1.12.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.11.0...@ahiho/tsconfig@1.12.0) (2024-04-22)
+
+
+### Features
+
+* update node version required ([1cd8609](https://github.com/ahiho/tjs-configs/commit/1cd8609a4221ba3d7a2718c0fdb14e744a3d4db6))
+* update node version required ([aa19671](https://github.com/ahiho/tjs-configs/commit/aa1967124fc6b0186442408ed2659c5895594489))
+
 # [1.11.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/tsconfig@1.10.1...@ahiho/tsconfig@1.11.0) (2024-02-07)
 
 
