@@ -20,6 +20,5 @@
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": ["default"],
     "sharedGlobals": []
-  },
-  "nxCloudAccessToken": "ZTc3MzE5YmUtY2RiZi00ZTQ0LTgzMjYtNGNkMTQ0NGU5NjUyfHJlYWQtd3JpdGU="
+  }
 }
