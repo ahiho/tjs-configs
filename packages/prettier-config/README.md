@@ -6,7 +6,7 @@ Read the [Prettier config docs](https://prettier.io/docs/en/index.html) for more
 
 ## Requirement
 
-- [NodeJS](https://nodejs.org) (version >= 14.x and <= 21)
+- [NodeJS](https://nodejs.org) (version >= 18.0.0 and <= 21.x.x)
 
 ## Installation
 
