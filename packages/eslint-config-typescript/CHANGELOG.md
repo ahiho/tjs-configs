@@ -1,3 +1,11 @@
+# [1.14.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.13.0...@ahiho/eslint-config-typescript@1.14.0) (2024-04-22)
+
+
+### Features
+
+* update node version required ([1cd8609](https://github.com/ahiho/tjs-configs/commit/1cd8609a4221ba3d7a2718c0fdb14e744a3d4db6))
+* update node version required ([aa19671](https://github.com/ahiho/tjs-configs/commit/aa1967124fc6b0186442408ed2659c5895594489))
+
 # [1.13.0](https://github.com/ahiho/tjs-configs/compare/@ahiho/eslint-config-typescript@1.12.1...@ahiho/eslint-config-typescript@1.13.0) (2024-02-07)
 
 
