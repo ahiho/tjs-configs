@@ -23,7 +23,7 @@
     "@commitlint/config-conventional": "^18.6.0"
   },
   "engines": {
-    "node": ">=14.0.0 <=21.x.x"
+    "node": ">=18.0.0 <=21.x.x"
   },
   "publishConfig": {
     "access": "public"

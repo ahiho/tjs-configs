@@ -13,7 +13,7 @@ Ahiho's
 
 ## Requirement
 
-- [NodeJS](https://nodejs.org) (version >= 14.x and <= 21)
+- [NodeJS](https://nodejs.org) (version >= 18.x and <= 21)
 
 ## Setup
 
